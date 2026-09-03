@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T10:28:39.108228+00:00",
+  "generated_at": "2026-09-03T10:28:46.308635+00:00",
   "lenders": [
     {
       "lender": "State Bank of India",
@@ -138,7 +138,7 @@
           "source_type": "html",
           "http_status": null,
           "usable": false,
-          "reason": "<urlopen error _ssl.c:1130: The handshake operation timed out>"
+          "reason": "<urlopen error [Errno 101] Network is unreachable>"
         }
       ],
       "selected_source": null,

@@ -1,6 +1,6 @@
 # Home Loan Verification Report
 
-Generated: `2026-09-03T10:30:33.117829+00:00`
+Generated: `2026-09-03T10:29:31.276789+00:00`
 
 ## State Bank of India
 - Product: `HOME_LOAN`
@@ -73,7 +73,7 @@ Generated: `2026-09-03T10:30:33.117829+00:00`
 
 ## Bank of Maharashtra
 - Status: **FAILED**
-- Reason: <urlopen error _ssl.c:1130: The handshake operation timed out>
+- Reason: <urlopen error [Errno 101] Network is unreachable>
 
 ## Indian Overseas Bank
 - Status: **FAILED**
