@@ -7,7 +7,7 @@ import yaml
 ROOT=Path(__file__).resolve().parents[1]; sys.path.insert(0,str(ROOT/'scripts'))
 def fetch(url):
     req=urllib.request.Request(url,headers={'User-Agent':'India-Home-Loan-Rates/1.0'})
-    with urllib.request.urlopen(req,timeout=10) as r: return r.read(),r.status,r.url,r.headers.get('content-type','')
+    with urllib.request.urlopen(req,timeout=25) as r: return r.read(),r.status,r.url,r.headers.get('content-type','')
 def main():
     ap=argparse.ArgumentParser(); ap.add_argument('--lender',action='append'); ap.add_argument('--verbose',action='store_true'); args=ap.parse_args()
     cfg=yaml.safe_load((ROOT/'config/lenders.yaml').read_text())['lenders']; now=datetime.now(timezone.utc).isoformat()
@@ -23,6 +23,8 @@ def main():
             rates.append(rec); attempt.update({'usable':True,'reason':'explicit HOME_LOAN rate evidence parsed'})
             if args.verbose: print(f"[{lender['id']}] {status} {final} -> {rec['rate_min']:.2f}%")
         except Exception as exc:
+            if hasattr(exc, 'code'): attempt['http_status'] = exc.code
+            if hasattr(exc, 'url'): attempt['final_url'] = exc.url
             attempt['reason']=str(exc); failures.append({'lender':lender['name'],'failure_reason':str(exc),'attempted_sources':[attempt],'last_attempt':now})
             if args.verbose: print(f"[{lender['id']}] FAILED: {exc}")
         discoveries.append({'lender':lender['name'],'sources_checked':[attempt],'selected_source':url if attempt['usable'] else None,'status':'LIVE_VERIFIED' if attempt['usable'] else 'FAILED'})

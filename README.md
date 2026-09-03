@@ -8,6 +8,8 @@ Official-source comparison of publicly advertised Indian floating home-loan rate
 
 Coverage: **3 / 10 configured lenders currently verified**
 
+Ranked among currently verified official evidence; coverage is not a complete market census.
+
 | Rank | Lender | Starting Rate | Conditions | Type | Verification | Last Verified | Source |
 |---:|---|---:|---|---|---|---|---|
 | 1 | State Bank of India | 6.65% | Resident home-loan term loan; CIBIL-linked pricing; minimum CIBIL threshold 550; rates vary by score and loan details | floating | LIVE_VERIFIED | 2026-09-03 | [Official](https://sbi.bank.in/web/business/information/interest-rates) |
@@ -18,6 +20,8 @@ Coverage: **3 / 10 configured lenders currently verified**
 
 Coverage: **3 / 9 configured lenders currently verified**
 
+Ranked among currently verified official evidence; coverage is not a complete market census.
+
 | Rank | Lender | Starting Rate | Conditions | Type | Verification | Last Verified | Source |
 |---:|---|---:|---|---|---|---|---|
 | 1 | HDFC Bank | 7.75% | Special housing rate for salaried and self-employed professionals/non-professionals; final rate depends on credit profile, employment, property and loan value | floating | LIVE_VERIFIED | 2026-09-03 | [Official](https://homeloans.hdfc.bank.in/ps/home-loans-in-india/interest-rates) |
@@ -27,6 +31,8 @@ Coverage: **3 / 9 configured lenders currently verified**
 ### 🏠 Housing Finance Companies
 
 Coverage: **1 / 4 configured lenders currently verified**
+
+Ranked among currently verified official evidence; coverage is not a complete market census.
 
 | Rank | Lender | Starting Rate | Conditions | Type | Verification | Last Verified | Source |
 |---:|---|---:|---|---|---|---|---|

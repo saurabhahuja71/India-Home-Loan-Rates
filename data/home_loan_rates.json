@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T10:18:35.953909+00:00",
+  "generated_at": "2026-09-03T10:28:39.108228+00:00",
   "rates": [
     {
       "lender": "State Bank of India",
@@ -27,7 +27,7 @@
       "rate_source_column": "Effective Rate (ER)",
       "conditions": "Resident home-loan term loan; CIBIL-linked pricing; minimum CIBIL threshold 550; rates vary by score and loan details",
       "last_verified": "2026-09-03",
-      "collection_timestamp": "2026-09-03T10:18:35.953909+00:00"
+      "collection_timestamp": "2026-09-03T10:28:39.108228+00:00"
     },
     {
       "lender": "Bank of Baroda",
@@ -55,7 +55,7 @@
       "rate_source_column": "Official home-loan starting-rate statement",
       "conditions": "Resident Indian applicants; floating rate linked to BRLLR; final rate depends on CIBIL, income and loan details",
       "last_verified": "2026-09-03",
-      "collection_timestamp": "2026-09-03T10:18:35.953909+00:00"
+      "collection_timestamp": "2026-09-03T10:28:39.108228+00:00"
     },
     {
       "lender": "Punjab National Bank",
@@ -83,7 +83,7 @@
       "rate_source_column": "Floating ROI \u2014 presently effective rate",
       "conditions": "Resident housing loan; rates vary by CIBIL score, loan amount and LTV; lowest published slab is for CIBIL 800+ and loan above \u20b930 lakh with LTV \u226480%",
       "last_verified": "2026-09-03",
-      "collection_timestamp": "2026-09-03T10:18:35.953909+00:00"
+      "collection_timestamp": "2026-09-03T10:28:39.108228+00:00"
     },
     {
       "lender": "HDFC Bank",
@@ -111,7 +111,7 @@
       "rate_source_column": "Interest Rates (% p.a.) \u2014 effective range",
       "conditions": "Special housing rate for salaried and self-employed professionals/non-professionals; final rate depends on credit profile, employment, property and loan value",
       "last_verified": "2026-09-03",
-      "collection_timestamp": "2026-09-03T10:18:35.953909+00:00"
+      "collection_timestamp": "2026-09-03T10:28:39.108228+00:00"
     },
     {
       "lender": "ICICI Bank",
@@ -139,7 +139,7 @@
       "rate_source_column": "Rate of Interest",
       "conditions": "New home loan fixed-tenure rate table; final rate is subject to borrower profile and applicable terms",
       "last_verified": "2026-09-03",
-      "collection_timestamp": "2026-09-03T10:18:35.953909+00:00"
+      "collection_timestamp": "2026-09-03T10:28:39.108228+00:00"
     },
     {
       "lender": "Axis Bank",
@@ -167,7 +167,7 @@
       "rate_source_column": "Effective Rate of Interest",
       "conditions": "Cibil Score - 751 and above; floating home loan; final pricing is credit-profile dependent",
       "last_verified": "2026-09-03",
-      "collection_timestamp": "2026-09-03T10:18:35.953909+00:00"
+      "collection_timestamp": "2026-09-03T10:28:39.108228+00:00"
     },
     {
       "lender": "Bajaj Housing Finance",
@@ -195,7 +195,7 @@
       "rate_source_column": "Effective ROI (p.a.)",
       "conditions": "Home Loan product; published range, subject to borrower profile and lender terms",
       "last_verified": "2026-09-03",
-      "collection_timestamp": "2026-09-03T10:18:35.953909+00:00"
+      "collection_timestamp": "2026-09-03T10:28:39.108228+00:00"
     }
   ],
   "failures": [
@@ -213,7 +213,7 @@
           "final_url": "https://www.canarabank.bank.in/pages/interest-rates"
         }
       ],
-      "last_attempt": "2026-09-03T10:18:35.953909+00:00"
+      "last_attempt": "2026-09-03T10:28:39.108228+00:00"
     },
     {
       "lender": "Union Bank of India",
@@ -229,7 +229,7 @@
           "final_url": "https://www.unionbankofindia.bank.in/en/details/interest-rates"
         }
       ],
-      "last_attempt": "2026-09-03T10:18:35.953909+00:00"
+      "last_attempt": "2026-09-03T10:28:39.108228+00:00"
     },
     {
       "lender": "Bank of India",
@@ -239,12 +239,13 @@
           "url": "https://bankofindia.bank.in/interest-rate/retail-loans",
           "official_domain": true,
           "source_type": "html",
-          "http_status": null,
+          "http_status": 403,
           "usable": false,
-          "reason": "HTTP Error 403: Forbidden"
+          "reason": "HTTP Error 403: Forbidden",
+          "final_url": "https://bankofindia.bank.in/interest-rate/retail-loans"
         }
       ],
-      "last_attempt": "2026-09-03T10:18:35.953909+00:00"
+      "last_attempt": "2026-09-03T10:28:39.108228+00:00"
     },
     {
       "lender": "Indian Bank",
@@ -254,12 +255,13 @@
           "url": "https://www.indianbank.in/departments/interest-rates/",
           "official_domain": true,
           "source_type": "html",
-          "http_status": null,
+          "http_status": 404,
           "usable": false,
-          "reason": "HTTP Error 404: "
+          "reason": "HTTP Error 404: ",
+          "final_url": "https://indianbank.bank.in/en/departments/interest-rates/"
         }
       ],
-      "last_attempt": "2026-09-03T10:18:35.953909+00:00"
+      "last_attempt": "2026-09-03T10:28:39.108228+00:00"
     },
     {
       "lender": "Central Bank of India",
@@ -269,12 +271,13 @@
           "url": "https://centralbankofindia.co.in/en/interest-rates",
           "official_domain": true,
           "source_type": "html",
-          "http_status": null,
+          "http_status": 404,
           "usable": false,
-          "reason": "HTTP Error 404: Not Found"
+          "reason": "HTTP Error 404: Not Found",
+          "final_url": "https://centralbank.bank.in/en/interest-rates"
         }
       ],
-      "last_attempt": "2026-09-03T10:18:35.953909+00:00"
+      "last_attempt": "2026-09-03T10:28:39.108228+00:00"
     },
     {
       "lender": "Bank of Maharashtra",
@@ -289,7 +292,7 @@
           "reason": "<urlopen error _ssl.c:1130: The handshake operation timed out>"
         }
       ],
-      "last_attempt": "2026-09-03T10:18:35.953909+00:00"
+      "last_attempt": "2026-09-03T10:28:39.108228+00:00"
     },
     {
       "lender": "Indian Overseas Bank",
@@ -299,12 +302,13 @@
           "url": "https://www.iob.bank.in/en/interest-rates",
           "official_domain": true,
           "source_type": "html",
-          "http_status": null,
+          "http_status": 404,
           "usable": false,
-          "reason": "HTTP Error 404: "
+          "reason": "HTTP Error 404: ",
+          "final_url": "https://www.iob.bank.in/en/interest-rates"
         }
       ],
-      "last_attempt": "2026-09-03T10:18:35.953909+00:00"
+      "last_attempt": "2026-09-03T10:28:39.108228+00:00"
     },
     {
       "lender": "Kotak Mahindra Bank",
@@ -320,7 +324,7 @@
           "final_url": "https://www.kotak.bank.in/en/personal-banking/loans/home-loan/interest-rates.html"
         }
       ],
-      "last_attempt": "2026-09-03T10:18:35.953909+00:00"
+      "last_attempt": "2026-09-03T10:28:39.108228+00:00"
     },
     {
       "lender": "IDFC FIRST Bank",
@@ -336,7 +340,7 @@
           "final_url": "https://www.idfcfirst.bank.in/personal-banking/loans/home-loan"
         }
       ],
-      "last_attempt": "2026-09-03T10:18:35.953909+00:00"
+      "last_attempt": "2026-09-03T10:28:39.108228+00:00"
     },
     {
       "lender": "IndusInd Bank",
@@ -352,7 +356,7 @@
           "final_url": "https://www.indusind.bank.in/in/en/personal/loans/home-loan.html"
         }
       ],
-      "last_attempt": "2026-09-03T10:18:35.953909+00:00"
+      "last_attempt": "2026-09-03T10:28:39.108228+00:00"
     },
     {
       "lender": "Federal Bank",
@@ -368,7 +372,7 @@
           "final_url": "https://www.federalbank.co.in/home-loan"
         }
       ],
-      "last_attempt": "2026-09-03T10:18:35.953909+00:00"
+      "last_attempt": "2026-09-03T10:28:39.108228+00:00"
     },
     {
       "lender": "YES Bank",
@@ -378,12 +382,13 @@
           "url": "https://www.yesbank.in/personal-banking/loans/home-loan",
           "official_domain": true,
           "source_type": "html",
-          "http_status": null,
+          "http_status": 404,
           "usable": false,
-          "reason": "HTTP Error 404: Not Found"
+          "reason": "HTTP Error 404: Not Found",
+          "final_url": "https://www.yes.bank.in/personal-banking/loans/home-loan"
         }
       ],
-      "last_attempt": "2026-09-03T10:18:35.953909+00:00"
+      "last_attempt": "2026-09-03T10:28:39.108228+00:00"
     },
     {
       "lender": "RBL Bank",
@@ -393,12 +398,13 @@
           "url": "https://www.rblbank.com/home-loan",
           "official_domain": true,
           "source_type": "html",
-          "http_status": null,
+          "http_status": 404,
           "usable": false,
-          "reason": "HTTP Error 404: Not Found"
+          "reason": "HTTP Error 404: Not Found",
+          "final_url": "https://www.rbl.bank.in:443/home-loan"
         }
       ],
-      "last_attempt": "2026-09-03T10:18:35.953909+00:00"
+      "last_attempt": "2026-09-03T10:28:39.108228+00:00"
     },
     {
       "lender": "LIC Housing Finance",
@@ -414,22 +420,23 @@
           "final_url": "https://www.lichousing.com/home-loan-interest-rates"
         }
       ],
-      "last_attempt": "2026-09-03T10:18:35.953909+00:00"
+      "last_attempt": "2026-09-03T10:28:39.108228+00:00"
     },
     {
       "lender": "PNB Housing Finance",
       "failure_reason": "HTTP Error 406: Not Acceptable",
       "attempted_sources": [
         {
-          "url": "https://www.pnbhousing.com/home-loan-interest-rates",
+          "url": "https://www.pnbhousing.com/home-loan/interest-rates",
           "official_domain": true,
           "source_type": "html",
-          "http_status": null,
+          "http_status": 406,
           "usable": false,
-          "reason": "HTTP Error 406: Not Acceptable"
+          "reason": "HTTP Error 406: Not Acceptable",
+          "final_url": "https://www.pnbhousing.com/home-loan/interest-rates"
         }
       ],
-      "last_attempt": "2026-09-03T10:18:35.953909+00:00"
+      "last_attempt": "2026-09-03T10:28:39.108228+00:00"
     },
     {
       "lender": "Tata Capital Housing Finance",
@@ -439,12 +446,13 @@
           "url": "https://www.tatacapital.com/home-loan/interest-rates.html",
           "official_domain": true,
           "source_type": "html",
-          "http_status": null,
+          "http_status": 404,
           "usable": false,
-          "reason": "HTTP Error 404: Not Found"
+          "reason": "HTTP Error 404: Not Found",
+          "final_url": "https://www.tatacapital.com/home-loan/interest-rates.html"
         }
       ],
-      "last_attempt": "2026-09-03T10:18:35.953909+00:00"
+      "last_attempt": "2026-09-03T10:28:39.108228+00:00"
     }
   ]
 }

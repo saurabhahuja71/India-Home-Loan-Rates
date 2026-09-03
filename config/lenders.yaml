@@ -16,9 +16,9 @@ lenders:
   - {id: idfc_first, name: IDFC FIRST Bank, category: private_sector, parser: idfc_first, enabled: true, source_type: html, source_url: https://www.idfcfirst.bank.in/personal-banking/loans/home-loan}
   - {id: indusind, name: IndusInd Bank, category: private_sector, parser: indusind, enabled: true, source_type: html, source_url: https://www.indusind.com/in/en/personal/loans/home-loan.html}
   - {id: federal, name: Federal Bank, category: private_sector, parser: federal, enabled: true, source_type: html, source_url: https://www.federalbank.co.in/home-loan}
-  - {id: yes, name: YES Bank, category: private_sector, parser: yes, enabled: true, source_type: html, source_url: https://www.yesbank.in/personal-banking/loans/home-loan}
+  - {id: yes_bank, name: YES Bank, category: private_sector, parser: yes, enabled: true, source_type: html, source_url: https://www.yesbank.in/personal-banking/loans/home-loan}
   - {id: rbl, name: RBL Bank, category: private_sector, parser: rbl, enabled: true, source_type: html, source_url: https://www.rblbank.com/home-loan}
   - {id: lic_housing, name: LIC Housing Finance, category: housing_finance_company, parser: lic_housing, enabled: true, source_type: html, source_url: https://www.lichousing.com/home-loan-interest-rates}
   - {id: bajaj_housing, name: Bajaj Housing Finance, category: housing_finance_company, parser: bajaj_housing, enabled: true, source_type: html, source_url: https://www.bajajhousingfinance.in/home-loan-interest-rates}
-  - {id: pnb_housing, name: PNB Housing Finance, category: housing_finance_company, parser: pnb_housing, enabled: true, source_type: html, source_url: https://www.pnbhousing.com/home-loan-interest-rates}
+  - {id: pnb_housing, name: PNB Housing Finance, category: housing_finance_company, parser: pnb_housing, enabled: true, source_type: html, source_url: https://www.pnbhousing.com/home-loan/interest-rates}
   - {id: tata_capital_housing, name: Tata Capital Housing Finance, category: housing_finance_company, parser: tata_capital_housing, enabled: true, source_type: html, source_url: https://www.tatacapital.com/home-loan/interest-rates.html}

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T10:18:35.953909+00:00",
+  "generated_at": "2026-09-03T10:28:39.108228+00:00",
   "lenders": [
     {
       "lender": "State Bank of India",
@@ -88,9 +88,10 @@
           "url": "https://bankofindia.bank.in/interest-rate/retail-loans",
           "official_domain": true,
           "source_type": "html",
-          "http_status": null,
+          "http_status": 403,
           "usable": false,
-          "reason": "HTTP Error 403: Forbidden"
+          "reason": "HTTP Error 403: Forbidden",
+          "final_url": "https://bankofindia.bank.in/interest-rate/retail-loans"
         }
       ],
       "selected_source": null,
@@ -103,9 +104,10 @@
           "url": "https://www.indianbank.in/departments/interest-rates/",
           "official_domain": true,
           "source_type": "html",
-          "http_status": null,
+          "http_status": 404,
           "usable": false,
-          "reason": "HTTP Error 404: "
+          "reason": "HTTP Error 404: ",
+          "final_url": "https://indianbank.bank.in/en/departments/interest-rates/"
         }
       ],
       "selected_source": null,
@@ -118,9 +120,10 @@
           "url": "https://centralbankofindia.co.in/en/interest-rates",
           "official_domain": true,
           "source_type": "html",
-          "http_status": null,
+          "http_status": 404,
           "usable": false,
-          "reason": "HTTP Error 404: Not Found"
+          "reason": "HTTP Error 404: Not Found",
+          "final_url": "https://centralbank.bank.in/en/interest-rates"
         }
       ],
       "selected_source": null,
@@ -148,9 +151,10 @@
           "url": "https://www.iob.bank.in/en/interest-rates",
           "official_domain": true,
           "source_type": "html",
-          "http_status": null,
+          "http_status": 404,
           "usable": false,
-          "reason": "HTTP Error 404: "
+          "reason": "HTTP Error 404: ",
+          "final_url": "https://www.iob.bank.in/en/interest-rates"
         }
       ],
       "selected_source": null,
@@ -275,9 +279,10 @@
           "url": "https://www.yesbank.in/personal-banking/loans/home-loan",
           "official_domain": true,
           "source_type": "html",
-          "http_status": null,
+          "http_status": 404,
           "usable": false,
-          "reason": "HTTP Error 404: Not Found"
+          "reason": "HTTP Error 404: Not Found",
+          "final_url": "https://www.yes.bank.in/personal-banking/loans/home-loan"
         }
       ],
       "selected_source": null,
@@ -290,9 +295,10 @@
           "url": "https://www.rblbank.com/home-loan",
           "official_domain": true,
           "source_type": "html",
-          "http_status": null,
+          "http_status": 404,
           "usable": false,
-          "reason": "HTTP Error 404: Not Found"
+          "reason": "HTTP Error 404: Not Found",
+          "final_url": "https://www.rbl.bank.in:443/home-loan"
         }
       ],
       "selected_source": null,
@@ -334,12 +340,13 @@
       "lender": "PNB Housing Finance",
       "sources_checked": [
         {
-          "url": "https://www.pnbhousing.com/home-loan-interest-rates",
+          "url": "https://www.pnbhousing.com/home-loan/interest-rates",
           "official_domain": true,
           "source_type": "html",
-          "http_status": null,
+          "http_status": 406,
           "usable": false,
-          "reason": "HTTP Error 406: Not Acceptable"
+          "reason": "HTTP Error 406: Not Acceptable",
+          "final_url": "https://www.pnbhousing.com/home-loan/interest-rates"
         }
       ],
       "selected_source": null,
@@ -352,9 +359,10 @@
           "url": "https://www.tatacapital.com/home-loan/interest-rates.html",
           "official_domain": true,
           "source_type": "html",
-          "http_status": null,
+          "http_status": 404,
           "usable": false,
-          "reason": "HTTP Error 404: Not Found"
+          "reason": "HTTP Error 404: Not Found",
+          "final_url": "https://www.tatacapital.com/home-loan/interest-rates.html"
         }
       ],
       "selected_source": null,
