@@ -32,6 +32,11 @@ def main():
     (ROOT/'data').mkdir(exist_ok=True); (ROOT/'data/home_loan_rates.json').write_text(json.dumps(out,indent=2)+'\n')
     (ROOT/'data/source_discovery_report.json').write_text(json.dumps({'generated_at':now,'lenders':discoveries},indent=2)+'\n')
     (ROOT/'data/verification_report.md').write_text(report(rates,failures))
+    # Never publish an empty ranking after a transient outage or source block.
+    # Keep the last successful snapshot visible; diagnostics still record this run.
+    if not rates and old.get('rates'):
+        (ROOT/'data/home_loan_rates.json').write_text(json.dumps(old,indent=2)+'\n')
+        return 0
     import generate_ranking, generate_readme, generate_site
     generate_ranking.main(); generate_readme.main(); generate_site.main()
     return 0
