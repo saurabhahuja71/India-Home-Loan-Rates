@@ -1,22 +1,67 @@
 {
-  "generated_at": null,
+  "generated_at": "2026-09-03T10:18:35.953909+00:00",
   "rankings": [
     {
       "profile": "advertised_starting_rate",
       "category": "public_sector",
-      "ranking": [],
+      "ranking": [
+        {
+          "rank": 1,
+          "lender": "State Bank of India",
+          "rate": 6.65,
+          "verification_status": "LIVE_VERIFIED"
+        },
+        {
+          "rank": 2,
+          "lender": "Bank of Baroda",
+          "rate": 7.2,
+          "verification_status": "LIVE_VERIFIED"
+        },
+        {
+          "rank": 3,
+          "lender": "Punjab National Bank",
+          "rate": 8.4,
+          "verification_status": "LIVE_VERIFIED"
+        }
+      ],
       "excluded": []
     },
     {
       "profile": "advertised_starting_rate",
       "category": "private_sector",
-      "ranking": [],
+      "ranking": [
+        {
+          "rank": 1,
+          "lender": "HDFC Bank",
+          "rate": 7.75,
+          "verification_status": "LIVE_VERIFIED"
+        },
+        {
+          "rank": 2,
+          "lender": "Axis Bank",
+          "rate": 8.0,
+          "verification_status": "LIVE_VERIFIED"
+        },
+        {
+          "rank": 3,
+          "lender": "ICICI Bank",
+          "rate": 9.1,
+          "verification_status": "LIVE_VERIFIED"
+        }
+      ],
       "excluded": []
     },
     {
       "profile": "advertised_starting_rate",
       "category": "housing_finance_company",
-      "ranking": [],
+      "ranking": [
+        {
+          "rank": 1,
+          "lender": "Bajaj Housing Finance",
+          "rate": 7.25,
+          "verification_status": "LIVE_VERIFIED"
+        }
+      ],
       "excluded": []
     }
   ]

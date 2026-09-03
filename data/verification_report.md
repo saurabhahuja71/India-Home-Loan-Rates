@@ -1,28 +1,55 @@
 # Home Loan Verification Report
 
-Generated: `2026-09-03T09:53:12.553812+00:00`
+Generated: `2026-09-03T10:20:19.491986+00:00`
+
+## State Bank of India
+- Product: `HOME_LOAN`
+- Rate: **6.65%**
+- Exact row: `HOME LOANS (Term Loans) | CIBIL-linked effective rates | 6.65% 6.75% 6.85% 6.95% 7.15% 6.85%`
+- Rate column: `Effective Rate (ER)`
+- Source: https://sbi.bank.in/web/business/information/interest-rates
 
 ## Bank of Baroda
 - Product: `HOME_LOAN`
-- Rate: **0.70%**
-- Exact row: `Baroda Home Loan to Non-Staff members | Conditions For Salaried* | Repo Rate + Spread BRLLR – 0.70% to BRLLR + 1.05% | Effective Rate of Interest 0.00%`
-- Rate column: `Repo Rate + Spread Applicable ROI on linked Home Loan (Based on BRLLR on the date of availment of Top up Loan) + Strategic Premium (0.25%) + 0.60%`
-- Source: https://bankofbaroda.bank.in/interest-rate-and-service-charges/retail-loans-interest-rates
+- Rate: **7.20%**
+- Exact row: `home loan starting @7.20%`
+- Rate column: `Official home-loan starting-rate statement`
+- Source: https://bankofbaroda.bank.in/loans/home-loan/baroda-home-loan
+
+## Punjab National Bank
+- Product: `HOME_LOAN`
+- Rate: **8.40%**
+- Exact row: `HOUSING LOAN | FLOATING ROI | 8.55% 8.40% 8.45% 9.05% 8.90% 8.95%`
+- Rate column: `Floating ROI — presently effective rate`
+- Source: https://pnb.bank.in/downloadprocess.aspx?fid=qTs2rpANCFLABEyLLQff2g%3D%3D
+
+## HDFC Bank
+- Product: `HOME_LOAN`
+- Rate: **7.75%**
+- Exact row: `For All Loans* | Policy Repo Rate + 2.50% to 7.95%= 7.75% to 13.20%`
+- Rate column: `Interest Rates (% p.a.) — effective range`
+- Source: https://homeloans.hdfc.bank.in/ps/home-loans-in-india/interest-rates
+
+## ICICI Bank
+- Product: `HOME_LOAN`
+- Rate: **9.10%**
+- Exact row: `24 Months | 9.10% – 9.15%`
+- Rate column: `Rate of Interest`
+- Source: https://www.icici.bank.in/personal-banking/loans/home-loan/interest-rates
 
 ## Axis Bank
 - Product: `HOME_LOAN`
-- Rate: **10.15%**
-- Exact row: `Salaried | REPO + 4.65% to REPO + 6.40% | 10.15% to 11.90%`
+- Rate: **8.00%**
+- Exact row: `Cibil Score - 751 and above | REPO + 2.75% to REPO + 3.60% | 8.00% to 8.85% p.a.`
 - Rate column: `Effective Rate of Interest`
 - Source: https://www.axis.bank.in/loans/home-loan/interest-rates-charges
 
-## State Bank of India
-- Status: **FAILED**
-- Reason: HTTP Error 404: Not Found
-
-## Punjab National Bank
-- Status: **FAILED**
-- Reason: explicit home-loan rate table not found
+## Bajaj Housing Finance
+- Product: `HOME_LOAN`
+- Rate: **7.25%**
+- Exact row: `Home Loan | 7.25%* to 10.25%*`
+- Rate column: `Effective ROI (p.a.)`
+- Source: https://www.bajajhousingfinance.in/home-loan-interest-rates
 
 ## Canara Bank
 - Status: **FAILED**
@@ -52,14 +79,6 @@ Generated: `2026-09-03T09:53:12.553812+00:00`
 - Status: **FAILED**
 - Reason: HTTP Error 404: 
 
-## HDFC Bank
-- Status: **FAILED**
-- Reason: HTTP Error 404: Not Found
-
-## ICICI Bank
-- Status: **FAILED**
-- Reason: explicit home-loan rate table not found
-
 ## Kotak Mahindra Bank
 - Status: **FAILED**
 - Reason: No module named 'banks.kotak'
@@ -85,10 +104,6 @@ Generated: `2026-09-03T09:53:12.553812+00:00`
 - Reason: HTTP Error 404: Not Found
 
 ## LIC Housing Finance
-- Status: **FAILED**
-- Reason: explicit home-loan rate table not found
-
-## Bajaj Housing Finance
 - Status: **FAILED**
 - Reason: explicit home-loan rate table not found
 

@@ -1,52 +1,53 @@
 {
-  "generated_at": "2026-09-03T09:51:16.122293+00:00",
+  "generated_at": "2026-09-03T10:18:35.953909+00:00",
   "lenders": [
     {
       "lender": "State Bank of India",
       "sources_checked": [
         {
-          "url": "https://sbi.co.in/web/interest-rates/loans/interest-rates",
-          "official_domain": true,
-          "source_type": "html",
-          "http_status": null,
-          "usable": false,
-          "reason": "HTTP Error 404: Not Found"
-        }
-      ],
-      "selected_source": null,
-      "status": "FAILED"
-    },
-    {
-      "lender": "Bank of Baroda",
-      "sources_checked": [
-        {
-          "url": "https://bankofbaroda.bank.in/interest-rate-and-service-charges/retail-loans-interest-rates",
+          "url": "https://sbi.co.in/web/business/information/interest-rates",
           "official_domain": true,
           "source_type": "html",
           "http_status": 200,
           "usable": true,
           "reason": "explicit HOME_LOAN rate evidence parsed",
-          "final_url": "https://bankofbaroda.bank.in/interest-rate-and-service-charges/retail-loans-interest-rates"
+          "final_url": "https://sbi.bank.in/web/business/information/interest-rates"
         }
       ],
-      "selected_source": "https://bankofbaroda.bank.in/interest-rate-and-service-charges/retail-loans-interest-rates",
+      "selected_source": "https://sbi.co.in/web/business/information/interest-rates",
+      "status": "LIVE_VERIFIED"
+    },
+    {
+      "lender": "Bank of Baroda",
+      "sources_checked": [
+        {
+          "url": "https://bankofbaroda.bank.in/loans/home-loan/baroda-home-loan",
+          "official_domain": true,
+          "source_type": "html",
+          "http_status": 200,
+          "usable": true,
+          "reason": "explicit HOME_LOAN rate evidence parsed",
+          "final_url": "https://bankofbaroda.bank.in/loans/home-loan/baroda-home-loan"
+        }
+      ],
+      "selected_source": "https://bankofbaroda.bank.in/loans/home-loan/baroda-home-loan",
       "status": "LIVE_VERIFIED"
     },
     {
       "lender": "Punjab National Bank",
       "sources_checked": [
         {
-          "url": "https://www.pnbindia.in/interest-rates.html",
+          "url": "https://www.pnbindia.in/downloadprocess.aspx?fid=qTs2rpANCFLABEyLLQff2g%3D%3D",
           "official_domain": true,
           "source_type": "html",
           "http_status": 200,
-          "usable": false,
-          "reason": "explicit home-loan rate table not found",
-          "final_url": "https://pnb.bank.in/Page-Not-Found.html"
+          "usable": true,
+          "reason": "explicit HOME_LOAN rate evidence parsed",
+          "final_url": "https://pnb.bank.in/downloadprocess.aspx?fid=qTs2rpANCFLABEyLLQff2g%3D%3D"
         }
       ],
-      "selected_source": null,
-      "status": "FAILED"
+      "selected_source": "https://www.pnbindia.in/downloadprocess.aspx?fid=qTs2rpANCFLABEyLLQff2g%3D%3D",
+      "status": "LIVE_VERIFIED"
     },
     {
       "lender": "Canara Bank",
@@ -159,38 +160,39 @@
       "lender": "HDFC Bank",
       "sources_checked": [
         {
-          "url": "https://www.hdfc.bank.in/home-loan/interest-rates",
+          "url": "https://homeloans.hdfc.bank.in/ps/home-loans-in-india/interest-rates",
           "official_domain": true,
           "source_type": "html",
-          "http_status": null,
-          "usable": false,
-          "reason": "HTTP Error 404: Not Found"
+          "http_status": 200,
+          "usable": true,
+          "reason": "explicit HOME_LOAN rate evidence parsed",
+          "final_url": "https://homeloans.hdfc.bank.in/ps/home-loans-in-india/interest-rates"
         }
       ],
-      "selected_source": null,
-      "status": "FAILED"
+      "selected_source": "https://homeloans.hdfc.bank.in/ps/home-loans-in-india/interest-rates",
+      "status": "LIVE_VERIFIED"
     },
     {
       "lender": "ICICI Bank",
       "sources_checked": [
         {
-          "url": "https://www.icicibank.com/personal-banking/loans/home-loan/interest-rates",
+          "url": "https://www.icici.bank.in/personal-banking/loans/home-loan/interest-rates",
           "official_domain": true,
           "source_type": "html",
           "http_status": 200,
-          "usable": false,
-          "reason": "explicit home-loan rate table not found",
+          "usable": true,
+          "reason": "explicit HOME_LOAN rate evidence parsed",
           "final_url": "https://www.icici.bank.in/personal-banking/loans/home-loan/interest-rates"
         }
       ],
-      "selected_source": null,
-      "status": "FAILED"
+      "selected_source": "https://www.icici.bank.in/personal-banking/loans/home-loan/interest-rates",
+      "status": "LIVE_VERIFIED"
     },
     {
       "lender": "Axis Bank",
       "sources_checked": [
         {
-          "url": "https://www.axisbank.com/retail/loans/home-loan/interest-rates",
+          "url": "https://www.axis.bank.in/loans/home-loan/interest-rates-charges",
           "official_domain": true,
           "source_type": "html",
           "http_status": 200,
@@ -199,7 +201,7 @@
           "final_url": "https://www.axis.bank.in/loans/home-loan/interest-rates-charges"
         }
       ],
-      "selected_source": "https://www.axisbank.com/retail/loans/home-loan/interest-rates",
+      "selected_source": "https://www.axis.bank.in/loans/home-loan/interest-rates-charges",
       "status": "LIVE_VERIFIED"
     },
     {
@@ -320,13 +322,13 @@
           "official_domain": true,
           "source_type": "html",
           "http_status": 200,
-          "usable": false,
-          "reason": "explicit home-loan rate table not found",
+          "usable": true,
+          "reason": "explicit HOME_LOAN rate evidence parsed",
           "final_url": "https://www.bajajhousingfinance.in/home-loan-interest-rates"
         }
       ],
-      "selected_source": null,
-      "status": "FAILED"
+      "selected_source": "https://www.bajajhousingfinance.in/home-loan-interest-rates",
+      "status": "LIVE_VERIFIED"
     },
     {
       "lender": "PNB Housing Finance",
