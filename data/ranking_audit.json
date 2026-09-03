@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-09-03T09:50:33.115711+00:00",
+  "rankings": [
+    {
+      "profile": "advertised_starting_rate",
+      "category": "public_sector",
+      "ranking": [
+        {
+          "rank": 1,
+          "lender": "Bank of Baroda",
+          "rate": 0.7,
+          "verification_status": "LIVE_VERIFIED"
+        }
+      ],
+      "excluded": []
+    },
+    {
+      "profile": "advertised_starting_rate",
+      "category": "private_sector",
+      "ranking": [
+        {
+          "rank": 1,
+          "lender": "Axis Bank",
+          "rate": 10.15,
+          "verification_status": "LIVE_VERIFIED"
+        }
+      ],
+      "excluded": []
+    },
+    {
+      "profile": "advertised_starting_rate",
+      "category": "housing_finance_company",
+      "ranking": [],
+      "excluded": []
+    }
+  ]
+}

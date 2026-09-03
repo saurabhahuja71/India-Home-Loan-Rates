@@ -1,0 +1,24 @@
+lenders:
+  - {id: sbi, name: State Bank of India, category: public_sector, parser: sbi, enabled: true, source_type: html, source_url: https://sbi.co.in/web/interest-rates/loans/interest-rates}
+  - {id: bank_of_baroda, name: Bank of Baroda, category: public_sector, parser: bank_of_baroda, enabled: true, source_type: html, source_url: https://bankofbaroda.bank.in/interest-rate-and-service-charges/retail-loans-interest-rates}
+  - {id: pnb, name: Punjab National Bank, category: public_sector, parser: pnb, enabled: true, source_type: html, source_url: https://www.pnbindia.in/interest-rates.html}
+  - {id: canara, name: Canara Bank, category: public_sector, parser: canara, enabled: true, source_type: html, source_url: https://www.canarabank.com/pages/interest-rates}
+  - {id: union, name: Union Bank of India, category: public_sector, parser: union, enabled: true, source_type: html, source_url: https://www.unionbankofindia.bank.in/en/details/interest-rates}
+  - {id: bank_of_india, name: Bank of India, category: public_sector, parser: bank_of_india, enabled: true, source_type: html, source_url: https://bankofindia.bank.in/interest-rate/retail-loans}
+  - {id: indian_bank, name: Indian Bank, category: public_sector, parser: indian_bank, enabled: true, source_type: html, source_url: https://www.indianbank.in/departments/interest-rates/}
+  - {id: central_bank, name: Central Bank of India, category: public_sector, parser: central_bank, enabled: true, source_type: html, source_url: https://centralbankofindia.co.in/en/interest-rates}
+  - {id: bank_of_maharashtra, name: Bank of Maharashtra, category: public_sector, parser: bank_of_maharashtra, enabled: true, source_type: html, source_url: https://bankofmaharashtra.in/deposit-rates}
+  - {id: indian_overseas, name: Indian Overseas Bank, category: public_sector, parser: indian_overseas, enabled: true, source_type: html, source_url: https://www.iob.bank.in/en/interest-rates}
+  - {id: hdfc, name: HDFC Bank, category: private_sector, parser: hdfc, enabled: true, source_type: html, source_url: https://www.hdfc.bank.in/home-loan/interest-rates}
+  - {id: icici, name: ICICI Bank, category: private_sector, parser: icici, enabled: true, source_type: html, source_url: https://www.icicibank.com/personal-banking/loans/home-loan/interest-rates}
+  - {id: axis, name: Axis Bank, category: private_sector, parser: axis, enabled: true, source_type: html, source_url: https://www.axisbank.com/retail/loans/home-loan/interest-rates}
+  - {id: kotak, name: Kotak Mahindra Bank, category: private_sector, parser: kotak, enabled: true, source_type: html, source_url: https://www.kotak.com/en/personal-banking/loans/home-loan/interest-rates.html}
+  - {id: idfc_first, name: IDFC FIRST Bank, category: private_sector, parser: idfc_first, enabled: true, source_type: html, source_url: https://www.idfcfirst.bank.in/personal-banking/loans/home-loan}
+  - {id: indusind, name: IndusInd Bank, category: private_sector, parser: indusind, enabled: true, source_type: html, source_url: https://www.indusind.com/in/en/personal/loans/home-loan.html}
+  - {id: federal, name: Federal Bank, category: private_sector, parser: federal, enabled: true, source_type: html, source_url: https://www.federalbank.co.in/home-loan}
+  - {id: yes, name: YES Bank, category: private_sector, parser: yes, enabled: true, source_type: html, source_url: https://www.yesbank.in/personal-banking/loans/home-loan}
+  - {id: rbl, name: RBL Bank, category: private_sector, parser: rbl, enabled: true, source_type: html, source_url: https://www.rblbank.com/home-loan}
+  - {id: lic_housing, name: LIC Housing Finance, category: housing_finance_company, parser: lic_housing, enabled: true, source_type: html, source_url: https://www.lichousing.com/home-loan-interest-rates}
+  - {id: bajaj_housing, name: Bajaj Housing Finance, category: housing_finance_company, parser: bajaj_housing, enabled: true, source_type: html, source_url: https://www.bajajhousingfinance.in/home-loan-interest-rates}
+  - {id: pnb_housing, name: PNB Housing Finance, category: housing_finance_company, parser: pnb_housing, enabled: true, source_type: html, source_url: https://www.pnbhousing.com/home-loan-interest-rates}
+  - {id: tata_capital_housing, name: Tata Capital Housing Finance, category: housing_finance_company, parser: tata_capital_housing, enabled: true, source_type: html, source_url: https://www.tatacapital.com/home-loan/interest-rates.html}
