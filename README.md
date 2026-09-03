@@ -6,19 +6,19 @@ Official-source comparison of publicly advertised Indian floating home-loan rate
 
 ### 🏛️ Public Sector Banks
 
-Coverage: **1 / 10 configured lenders currently verified**
+Coverage: **0 / 10 configured lenders currently verified**
 
 | Rank | Lender | Starting Rate | Conditions | Type | Verification | Last Verified | Source |
 |---:|---|---:|---|---|---|---|---|
-| 1 | Bank of Baroda | 0.70% | Official home-loan table; lender-specific eligibility applies | floating | LIVE_VERIFIED | 2026-09-03 | [Official](https://bankofbaroda.bank.in/interest-rate-and-service-charges/retail-loans-interest-rates) |
+| — | No current verified official evidence | — | — | — | — | — | — |
 
 ### 🏦 Private Sector Banks
 
-Coverage: **1 / 9 configured lenders currently verified**
+Coverage: **0 / 9 configured lenders currently verified**
 
 | Rank | Lender | Starting Rate | Conditions | Type | Verification | Last Verified | Source |
 |---:|---|---:|---|---|---|---|---|
-| 1 | Axis Bank | 10.15% | Official home-loan table; lender-specific eligibility applies | floating | LIVE_VERIFIED | 2026-09-03 | [Official](https://www.axis.bank.in/loans/home-loan/interest-rates-charges) |
+| — | No current verified official evidence | — | — | — | — | — | — |
 
 ### 🏠 Housing Finance Companies
 

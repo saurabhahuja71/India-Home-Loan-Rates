@@ -39,7 +39,8 @@ def parse_explicit_home_table(raw):
         for row in table:
             if len(row)<=rate_col or not re.search(r'home|housing|resident|salaried|individual', ' '.join(row),re.I): continue
             rate=number(row[rate_col])
-            if rate is not None: rows.append((row,rate,headers[rate_col]))
+            if rate is not None and rate > 1 and not re.search(r'top.?up|loan against property|balance transfer', ' '.join(row), re.I):
+                rows.append((row,rate,headers[rate_col]))
         if rows: return table,rows
     raise ValueError('explicit home-loan rate table not found')
 
