@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T07:22:09.759070+00:00",
+  "generated_at": "2026-09-09T07:31:27.408405+00:00",
   "rates": [
     {
       "lender": "State Bank of India",
@@ -26,36 +26,8 @@
       "source_row": "HOME LOANS (Term Loans) | CIBIL-linked effective rates | 6.65% 6.75% 6.85% 6.95% 7.15% 6.85%",
       "rate_source_column": "Effective Rate (ER)",
       "conditions": "Resident home-loan term loan; CIBIL-linked pricing; minimum CIBIL threshold 550; rates vary by score and loan details",
-      "last_verified": "2026-09-08",
-      "collection_timestamp": "2026-09-08T07:22:09.759070+00:00"
-    },
-    {
-      "lender": "Bank of Baroda",
-      "category": "public_sector",
-      "product": "HOME_LOAN",
-      "rate_type": "floating",
-      "rate_min": 7.2,
-      "rate_max": 7.2,
-      "borrower_type": "resident retail borrower",
-      "credit_score_min": null,
-      "credit_score_max": null,
-      "loan_amount_min": null,
-      "loan_amount_max": null,
-      "ltv_min": null,
-      "ltv_max": null,
-      "benchmark_type": "BRLLR",
-      "benchmark_value": null,
-      "spread": null,
-      "effective_date": null,
-      "verification_status": "LIVE_VERIFIED",
-      "source_url": "https://bankofbaroda.bank.in/loans/home-loan/baroda-home-loan",
-      "source_type": "HTML",
-      "source_table": "Explicit HOME_LOAN source table or heading",
-      "source_row": "home loan starting @7.20%",
-      "rate_source_column": "Official home-loan starting-rate statement",
-      "conditions": "Resident Indian applicants; floating rate linked to BRLLR; final rate depends on CIBIL, income and loan details",
-      "last_verified": "2026-09-08",
-      "collection_timestamp": "2026-09-08T07:22:09.759070+00:00"
+      "last_verified": "2026-09-09",
+      "collection_timestamp": "2026-09-09T07:31:27.408405+00:00"
     },
     {
       "lender": "Punjab National Bank",
@@ -82,8 +54,8 @@
       "source_row": "HOUSING LOAN | FLOATING ROI | 8.55% 8.40% 8.45% 9.05% 8.90% 8.95%",
       "rate_source_column": "Floating ROI \u2014 presently effective rate",
       "conditions": "Resident housing loan; rates vary by CIBIL score, loan amount and LTV; lowest published slab is for CIBIL 800+ and loan above \u20b930 lakh with LTV \u226480%",
-      "last_verified": "2026-09-08",
-      "collection_timestamp": "2026-09-08T07:22:09.759070+00:00"
+      "last_verified": "2026-09-09",
+      "collection_timestamp": "2026-09-09T07:31:27.408405+00:00"
     },
     {
       "lender": "HDFC Bank",
@@ -110,8 +82,8 @@
       "source_row": "For All Loans* | Policy Repo Rate + 2.50% to 7.95%= 7.75% to 13.20%",
       "rate_source_column": "Interest Rates (% p.a.) \u2014 effective range",
       "conditions": "Special housing rate for salaried and self-employed professionals/non-professionals; final rate depends on credit profile, employment, property and loan value",
-      "last_verified": "2026-09-08",
-      "collection_timestamp": "2026-09-08T07:22:09.759070+00:00"
+      "last_verified": "2026-09-09",
+      "collection_timestamp": "2026-09-09T07:31:27.408405+00:00"
     },
     {
       "lender": "ICICI Bank",
@@ -138,8 +110,8 @@
       "source_row": "24 Months | 9.10% \u2013 9.15%",
       "rate_source_column": "Rate of Interest",
       "conditions": "New home loan fixed-tenure rate table; final rate is subject to borrower profile and applicable terms",
-      "last_verified": "2026-09-08",
-      "collection_timestamp": "2026-09-08T07:22:09.759070+00:00"
+      "last_verified": "2026-09-09",
+      "collection_timestamp": "2026-09-09T07:31:27.408405+00:00"
     },
     {
       "lender": "Axis Bank",
@@ -166,8 +138,8 @@
       "source_row": "Cibil Score - 751 and above | REPO + 2.75% to REPO + 3.60% | 8.00% to 8.85% p.a.",
       "rate_source_column": "Effective Rate of Interest",
       "conditions": "Cibil Score - 751 and above; floating home loan; final pricing is credit-profile dependent",
-      "last_verified": "2026-09-08",
-      "collection_timestamp": "2026-09-08T07:22:09.759070+00:00"
+      "last_verified": "2026-09-09",
+      "collection_timestamp": "2026-09-09T07:31:27.408405+00:00"
     },
     {
       "lender": "Bajaj Housing Finance",
@@ -194,11 +166,26 @@
       "source_row": "Home Loan | 7.25%* to 10.25%*",
       "rate_source_column": "Effective ROI (p.a.)",
       "conditions": "Home Loan product; published range, subject to borrower profile and lender terms",
-      "last_verified": "2026-09-08",
-      "collection_timestamp": "2026-09-08T07:22:09.759070+00:00"
+      "last_verified": "2026-09-09",
+      "collection_timestamp": "2026-09-09T07:31:27.408405+00:00"
     }
   ],
   "failures": [
+    {
+      "lender": "Bank of Baroda",
+      "failure_reason": "The read operation timed out",
+      "attempted_sources": [
+        {
+          "url": "https://bankofbaroda.bank.in/loans/home-loan/baroda-home-loan",
+          "official_domain": true,
+          "source_type": "html",
+          "http_status": null,
+          "usable": false,
+          "reason": "The read operation timed out"
+        }
+      ],
+      "last_attempt": "2026-09-09T07:31:27.408405+00:00"
+    },
     {
       "lender": "Canara Bank",
       "failure_reason": "No module named 'banks.canara'",
@@ -213,7 +200,7 @@
           "final_url": "https://www.canarabank.bank.in/pages/interest-rates"
         }
       ],
-      "last_attempt": "2026-09-08T07:22:09.759070+00:00"
+      "last_attempt": "2026-09-09T07:31:27.408405+00:00"
     },
     {
       "lender": "Union Bank of India",
@@ -229,7 +216,7 @@
           "final_url": "https://www.unionbankofindia.bank.in/en/details/interest-rates"
         }
       ],
-      "last_attempt": "2026-09-08T07:22:09.759070+00:00"
+      "last_attempt": "2026-09-09T07:31:27.408405+00:00"
     },
     {
       "lender": "Bank of India",
@@ -245,22 +232,23 @@
           "final_url": "https://bankofindia.bank.in/interest-rate/retail-loans"
         }
       ],
-      "last_attempt": "2026-09-08T07:22:09.759070+00:00"
+      "last_attempt": "2026-09-09T07:31:27.408405+00:00"
     },
     {
       "lender": "Indian Bank",
-      "failure_reason": "[Errno 104] Connection reset by peer",
+      "failure_reason": "HTTP Error 404: ",
       "attempted_sources": [
         {
           "url": "https://www.indianbank.in/departments/interest-rates/",
           "official_domain": true,
           "source_type": "html",
-          "http_status": null,
+          "http_status": 404,
           "usable": false,
-          "reason": "[Errno 104] Connection reset by peer"
+          "reason": "HTTP Error 404: ",
+          "final_url": "https://indianbank.bank.in/en/departments/interest-rates/"
         }
       ],
-      "last_attempt": "2026-09-08T07:22:09.759070+00:00"
+      "last_attempt": "2026-09-09T07:31:27.408405+00:00"
     },
     {
       "lender": "Central Bank of India",
@@ -276,7 +264,7 @@
           "final_url": "https://centralbank.bank.in/en/interest-rates"
         }
       ],
-      "last_attempt": "2026-09-08T07:22:09.759070+00:00"
+      "last_attempt": "2026-09-09T07:31:27.408405+00:00"
     },
     {
       "lender": "Bank of Maharashtra",
@@ -291,7 +279,7 @@
           "reason": "<urlopen error [Errno 101] Network is unreachable>"
         }
       ],
-      "last_attempt": "2026-09-08T07:22:09.759070+00:00"
+      "last_attempt": "2026-09-09T07:31:27.408405+00:00"
     },
     {
       "lender": "Indian Overseas Bank",
@@ -307,7 +295,7 @@
           "final_url": "https://www.iob.bank.in/en/interest-rates"
         }
       ],
-      "last_attempt": "2026-09-08T07:22:09.759070+00:00"
+      "last_attempt": "2026-09-09T07:31:27.408405+00:00"
     },
     {
       "lender": "Kotak Mahindra Bank",
@@ -323,7 +311,7 @@
           "final_url": "https://www.kotak.bank.in/en/personal-banking/loans/home-loan/interest-rates.html"
         }
       ],
-      "last_attempt": "2026-09-08T07:22:09.759070+00:00"
+      "last_attempt": "2026-09-09T07:31:27.408405+00:00"
     },
     {
       "lender": "IDFC FIRST Bank",
@@ -339,7 +327,7 @@
           "final_url": "https://www.idfcfirst.bank.in/personal-banking/loans/home-loan"
         }
       ],
-      "last_attempt": "2026-09-08T07:22:09.759070+00:00"
+      "last_attempt": "2026-09-09T07:31:27.408405+00:00"
     },
     {
       "lender": "IndusInd Bank",
@@ -355,7 +343,7 @@
           "final_url": "https://www.indusind.bank.in/in/en/personal/loans/home-loan.html"
         }
       ],
-      "last_attempt": "2026-09-08T07:22:09.759070+00:00"
+      "last_attempt": "2026-09-09T07:31:27.408405+00:00"
     },
     {
       "lender": "Federal Bank",
@@ -371,7 +359,7 @@
           "final_url": "https://www.federalbank.co.in/home-loan"
         }
       ],
-      "last_attempt": "2026-09-08T07:22:09.759070+00:00"
+      "last_attempt": "2026-09-09T07:31:27.408405+00:00"
     },
     {
       "lender": "YES Bank",
@@ -387,7 +375,7 @@
           "final_url": "https://www.yes.bank.in/personal-banking/loans/home-loan"
         }
       ],
-      "last_attempt": "2026-09-08T07:22:09.759070+00:00"
+      "last_attempt": "2026-09-09T07:31:27.408405+00:00"
     },
     {
       "lender": "RBL Bank",
@@ -403,7 +391,7 @@
           "final_url": "https://www.rbl.bank.in:443/home-loan"
         }
       ],
-      "last_attempt": "2026-09-08T07:22:09.759070+00:00"
+      "last_attempt": "2026-09-09T07:31:27.408405+00:00"
     },
     {
       "lender": "LIC Housing Finance",
@@ -419,7 +407,7 @@
           "final_url": "https://www.lichousing.com/home-loan-interest-rates"
         }
       ],
-      "last_attempt": "2026-09-08T07:22:09.759070+00:00"
+      "last_attempt": "2026-09-09T07:31:27.408405+00:00"
     },
     {
       "lender": "PNB Housing Finance",
@@ -435,7 +423,7 @@
           "final_url": "https://www.pnbhousing.com/home-loan/interest-rates"
         }
       ],
-      "last_attempt": "2026-09-08T07:22:09.759070+00:00"
+      "last_attempt": "2026-09-09T07:31:27.408405+00:00"
     },
     {
       "lender": "Tata Capital Housing Finance",
@@ -451,7 +439,7 @@
           "final_url": "https://www.tatacapital.com/home-loan/interest-rates.html"
         }
       ],
-      "last_attempt": "2026-09-08T07:22:09.759070+00:00"
+      "last_attempt": "2026-09-09T07:31:27.408405+00:00"
     }
   ]
 }
