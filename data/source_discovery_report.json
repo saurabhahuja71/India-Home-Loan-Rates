@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T07:50:07.676997+00:00",
+  "generated_at": "2026-09-17T07:55:00.344264+00:00",
   "lenders": [
     {
       "lender": "State Bank of India",
@@ -8,13 +8,14 @@
           "url": "https://sbi.co.in/web/business/information/interest-rates",
           "official_domain": true,
           "source_type": "html",
-          "http_status": null,
-          "usable": false,
-          "reason": "The read operation timed out"
+          "http_status": 200,
+          "usable": true,
+          "reason": "explicit HOME_LOAN rate evidence parsed",
+          "final_url": "https://sbi.bank.in/web/business/information/interest-rates"
         }
       ],
-      "selected_source": null,
-      "status": "FAILED"
+      "selected_source": "https://sbi.co.in/web/business/information/interest-rates",
+      "status": "LIVE_VERIFIED"
     },
     {
       "lender": "Bank of Baroda",
@@ -103,9 +104,10 @@
           "url": "https://www.indianbank.in/departments/interest-rates/",
           "official_domain": true,
           "source_type": "html",
-          "http_status": null,
+          "http_status": 404,
           "usable": false,
-          "reason": "[Errno 104] Connection reset by peer"
+          "reason": "HTTP Error 404: ",
+          "final_url": "https://indianbank.bank.in/en/departments/interest-rates/"
         }
       ],
       "selected_source": null,
