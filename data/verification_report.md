@@ -1,6 +1,6 @@
 # Home Loan Verification Report
 
-Generated: `2026-09-22T07:53:36.202735+00:00`
+Generated: `2026-09-23T07:55:19.304495+00:00`
 
 ## State Bank of India
 - Product: `HOME_LOAN`
@@ -65,7 +65,7 @@ Generated: `2026-09-22T07:53:36.202735+00:00`
 
 ## Indian Bank
 - Status: **FAILED**
-- Reason: [Errno 104] Connection reset by peer
+- Reason: HTTP Error 404: 
 
 ## Central Bank of India
 - Status: **FAILED**
