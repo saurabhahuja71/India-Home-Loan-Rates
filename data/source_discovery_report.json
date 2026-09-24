@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T07:54:27.879188+00:00",
+  "generated_at": "2026-09-24T07:44:18.202765+00:00",
   "lenders": [
     {
       "lender": "State Bank of India",
@@ -9,13 +9,13 @@
           "official_domain": true,
           "source_type": "html",
           "http_status": 200,
-          "usable": true,
-          "reason": "explicit HOME_LOAN rate evidence parsed",
-          "final_url": "https://sbi.bank.in/web/business/information/interest-rates"
+          "usable": false,
+          "reason": "SBI home-loan term-loan section not found",
+          "final_url": "https://sbi.co.in/web/business/information/interest-rates"
         }
       ],
-      "selected_source": "https://sbi.co.in/web/business/information/interest-rates",
-      "status": "LIVE_VERIFIED"
+      "selected_source": null,
+      "status": "FAILED"
     },
     {
       "lender": "Bank of Baroda",
@@ -247,10 +247,10 @@
           "url": "https://www.indusind.com/in/en/personal/loans/home-loan.html",
           "official_domain": true,
           "source_type": "html",
-          "http_status": 200,
+          "http_status": 403,
           "usable": false,
-          "reason": "No module named 'banks.indusind'",
-          "final_url": "https://www.indusind.bank.in/in/en/personal/loans/home-loan.html"
+          "reason": "HTTP Error 403: Forbidden",
+          "final_url": "https://www.indusind.com/in/en/personal/loans/home-loan.html"
         }
       ],
       "selected_source": null,
