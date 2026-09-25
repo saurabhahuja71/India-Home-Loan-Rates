@@ -1,6 +1,13 @@
 # Home Loan Verification Report
 
-Generated: `2026-09-24T07:44:59.471089+00:00`
+Generated: `2026-09-25T08:05:33.897871+00:00`
+
+## State Bank of India
+- Product: `HOME_LOAN`
+- Rate: **6.65%**
+- Exact row: `HOME LOANS (Term Loans) | CIBIL-linked effective rates | 6.65% 6.75% 6.85% 6.95% 7.15% 6.85%`
+- Rate column: `Effective Rate (ER)`
+- Source: https://sbi.bank.in/web/business/information/interest-rates
 
 ## Bank of Baroda
 - Product: `HOME_LOAN`
@@ -44,10 +51,6 @@ Generated: `2026-09-24T07:44:59.471089+00:00`
 - Rate column: `Effective ROI (p.a.)`
 - Source: https://www.bajajhousingfinance.in/home-loan-interest-rates
 
-## State Bank of India
-- Status: **FAILED**
-- Reason: SBI home-loan term-loan section not found
-
 ## Canara Bank
 - Status: **FAILED**
 - Reason: No module named 'banks.canara'
@@ -86,7 +89,7 @@ Generated: `2026-09-24T07:44:59.471089+00:00`
 
 ## IndusInd Bank
 - Status: **FAILED**
-- Reason: HTTP Error 403: Forbidden
+- Reason: No module named 'banks.indusind'
 
 ## Federal Bank
 - Status: **FAILED**
