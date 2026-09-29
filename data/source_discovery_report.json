@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T08:52:37.681184+00:00",
+  "generated_at": "2026-09-29T08:52:14.802758+00:00",
   "lenders": [
     {
       "lender": "State Bank of India",
@@ -24,14 +24,13 @@
           "url": "https://bankofbaroda.bank.in/loans/home-loan/baroda-home-loan",
           "official_domain": true,
           "source_type": "html",
-          "http_status": 200,
-          "usable": true,
-          "reason": "explicit HOME_LOAN rate evidence parsed",
-          "final_url": "https://bankofbaroda.bank.in/loans/home-loan/baroda-home-loan"
+          "http_status": null,
+          "usable": false,
+          "reason": "The read operation timed out"
         }
       ],
-      "selected_source": "https://bankofbaroda.bank.in/loans/home-loan/baroda-home-loan",
-      "status": "LIVE_VERIFIED"
+      "selected_source": null,
+      "status": "FAILED"
     },
     {
       "lender": "Punjab National Bank",
@@ -104,10 +103,9 @@
           "url": "https://www.indianbank.in/departments/interest-rates/",
           "official_domain": true,
           "source_type": "html",
-          "http_status": 404,
+          "http_status": null,
           "usable": false,
-          "reason": "HTTP Error 404: ",
-          "final_url": "https://indianbank.bank.in/en/departments/interest-rates/"
+          "reason": "[Errno 104] Connection reset by peer"
         }
       ],
       "selected_source": null,
