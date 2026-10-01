@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T08:52:25.851311+00:00",
+  "generated_at": "2026-10-01T09:16:42.551205+00:00",
   "lenders": [
     {
       "lender": "State Bank of India",
@@ -59,7 +59,7 @@
           "http_status": 200,
           "usable": false,
           "reason": "No module named 'banks.canara'",
-          "final_url": "https://www.canarabank.bank.in/pages/interest-rates"
+          "final_url": "https://www.canarabank.bank.in:443/pages/interest-rates"
         }
       ],
       "selected_source": null,
