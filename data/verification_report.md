@@ -1,6 +1,6 @@
 # Home Loan Verification Report
 
-Generated: `2026-10-02T08:50:31.202516+00:00`
+Generated: `2026-10-03T08:28:07.466581+00:00`
 
 ## State Bank of India
 - Product: `HOME_LOAN`
@@ -69,7 +69,7 @@ Generated: `2026-10-02T08:50:31.202516+00:00`
 
 ## Central Bank of India
 - Status: **FAILED**
-- Reason: HTTP Error 404: Not Found
+- Reason: The read operation timed out
 
 ## Bank of Maharashtra
 - Status: **FAILED**
