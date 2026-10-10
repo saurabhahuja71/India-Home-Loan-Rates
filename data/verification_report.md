@@ -1,6 +1,6 @@
 # Home Loan Verification Report
 
-Generated: `2026-10-09T09:27:51.034849+00:00`
+Generated: `2026-10-10T08:49:07.498460+00:00`
 
 ## State Bank of India
 - Product: `HOME_LOAN`
@@ -25,8 +25,8 @@ Generated: `2026-10-09T09:27:51.034849+00:00`
 
 ## HDFC Bank
 - Product: `HOME_LOAN`
-- Rate: **7.75%**
-- Exact row: `For All Loans* | Policy Repo Rate + 2.50% to 7.95%= 7.75% to 13.20%`
+- Rate: **8.00%**
+- Exact row: `For All Loans* | Policy Repo Rate + 2.50% to 7.95%= 8% to 13.45%`
 - Rate column: `Interest Rates (% p.a.) — effective range`
 - Source: https://homeloans.hdfc.bank.in/ps/home-loans-in-india/interest-rates
 
