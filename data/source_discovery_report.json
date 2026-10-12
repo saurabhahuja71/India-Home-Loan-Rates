@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T09:09:51.869113+00:00",
+  "generated_at": "2026-10-12T09:35:01.916681+00:00",
   "lenders": [
     {
       "lender": "State Bank of India",
@@ -8,14 +8,13 @@
           "url": "https://sbi.co.in/web/business/information/interest-rates",
           "official_domain": true,
           "source_type": "html",
-          "http_status": 200,
-          "usable": true,
-          "reason": "explicit HOME_LOAN rate evidence parsed",
-          "final_url": "https://sbi.bank.in/web/business/information/interest-rates"
+          "http_status": null,
+          "usable": false,
+          "reason": "<urlopen error [Errno 101] Network is unreachable>"
         }
       ],
-      "selected_source": "https://sbi.co.in/web/business/information/interest-rates",
-      "status": "LIVE_VERIFIED"
+      "selected_source": null,
+      "status": "FAILED"
     },
     {
       "lender": "Bank of Baroda",
