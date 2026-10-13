@@ -1,6 +1,13 @@
 # Home Loan Verification Report
 
-Generated: `2026-10-12T09:36:25.569333+00:00`
+Generated: `2026-10-13T09:40:23.665616+00:00`
+
+## State Bank of India
+- Product: `HOME_LOAN`
+- Rate: **6.65%**
+- Exact row: `HOME LOANS (Term Loans) | CIBIL-linked effective rates | 6.65% 6.75% 6.85% 6.95% 7.15% 6.85%`
+- Rate column: `Effective Rate (ER)`
+- Source: https://sbi.bank.in/web/business/information/interest-rates
 
 ## Bank of Baroda
 - Product: `HOME_LOAN`
@@ -30,23 +37,12 @@ Generated: `2026-10-12T09:36:25.569333+00:00`
 - Rate column: `Rate of Interest`
 - Source: https://www.icici.bank.in/personal-banking/loans/home-loan/interest-rates
 
-## Axis Bank
-- Product: `HOME_LOAN`
-- Rate: **8.00%**
-- Exact row: `Cibil Score - 751 and above | REPO + 2.75% to REPO + 3.60% | 8.00% to 8.85% p.a.`
-- Rate column: `Effective Rate of Interest`
-- Source: https://www.axis.bank.in/loans/home-loan/interest-rates-charges
-
 ## Bajaj Housing Finance
 - Product: `HOME_LOAN`
 - Rate: **7.25%**
 - Exact row: `Home Loan | 7.25%* to 10.25%*`
 - Rate column: `Effective ROI (p.a.)`
 - Source: https://www.bajajhousingfinance.in/home-loan-interest-rates
-
-## State Bank of India
-- Status: **FAILED**
-- Reason: <urlopen error [Errno 101] Network is unreachable>
 
 ## Canara Bank
 - Status: **FAILED**
@@ -75,6 +71,10 @@ Generated: `2026-10-12T09:36:25.569333+00:00`
 ## Indian Overseas Bank
 - Status: **FAILED**
 - Reason: HTTP Error 404: 
+
+## Axis Bank
+- Status: **FAILED**
+- Reason: The read operation timed out
 
 ## Kotak Mahindra Bank
 - Status: **FAILED**
