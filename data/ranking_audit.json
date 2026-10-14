@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T09:39:01.701131+00:00",
+  "generated_at": "2026-10-14T07:53:58.897120+00:00",
   "rankings": [
     {
       "profile": "advertised_starting_rate",
@@ -32,12 +32,18 @@
       "ranking": [
         {
           "rank": 1,
-          "lender": "HDFC Bank",
+          "lender": "Axis Bank",
           "rate": 8.0,
           "verification_status": "LIVE_VERIFIED"
         },
         {
           "rank": 2,
+          "lender": "HDFC Bank",
+          "rate": 8.0,
+          "verification_status": "LIVE_VERIFIED"
+        },
+        {
+          "rank": 3,
           "lender": "ICICI Bank",
           "rate": 9.1,
           "verification_status": "LIVE_VERIFIED"
