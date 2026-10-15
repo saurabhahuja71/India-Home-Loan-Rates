@@ -1,6 +1,6 @@
 # Home Loan Verification Report
 
-Generated: `2026-10-14T07:54:53.048269+00:00`
+Generated: `2026-10-15T07:39:57.828525+00:00`
 
 ## State Bank of India
 - Product: `HOME_LOAN`
@@ -40,7 +40,7 @@ Generated: `2026-10-14T07:54:53.048269+00:00`
 ## Axis Bank
 - Product: `HOME_LOAN`
 - Rate: **8.00%**
-- Exact row: `Cibil Score - 751 and above | REPO + 2.75% to REPO + 3.60% | 8.00% to 8.85% p.a.`
+- Exact row: `Cibil Score - 751 and above | REPO + 2.50% to REPO + 3.35% | 8.00% to 8.85% p.a.`
 - Rate column: `Effective Rate of Interest`
 - Source: https://www.axis.bank.in/loans/home-loan/interest-rates-charges
 
