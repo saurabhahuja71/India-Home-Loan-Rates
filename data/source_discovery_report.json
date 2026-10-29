@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T08:51:26.246451+00:00",
+  "generated_at": "2026-10-29T08:45:28.261071+00:00",
   "lenders": [
     {
       "lender": "State Bank of India",
@@ -24,14 +24,13 @@
           "url": "https://bankofbaroda.bank.in/loans/home-loan/baroda-home-loan",
           "official_domain": true,
           "source_type": "html",
-          "http_status": 200,
-          "usable": true,
-          "reason": "explicit HOME_LOAN rate evidence parsed",
-          "final_url": "https://bankofbaroda.bank.in/loans/home-loan/baroda-home-loan"
+          "http_status": null,
+          "usable": false,
+          "reason": "<urlopen error [Errno 111] Connection refused>"
         }
       ],
-      "selected_source": "https://bankofbaroda.bank.in/loans/home-loan/baroda-home-loan",
-      "status": "LIVE_VERIFIED"
+      "selected_source": null,
+      "status": "FAILED"
     },
     {
       "lender": "Punjab National Bank",
@@ -120,10 +119,9 @@
           "url": "https://centralbankofindia.co.in/en/interest-rates",
           "official_domain": true,
           "source_type": "html",
-          "http_status": 404,
+          "http_status": null,
           "usable": false,
-          "reason": "HTTP Error 404: Not Found",
-          "final_url": "https://centralbank.bank.in/en/interest-rates"
+          "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1144)>"
         }
       ],
       "selected_source": null,

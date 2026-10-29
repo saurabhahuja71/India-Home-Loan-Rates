@@ -1,6 +1,6 @@
 # Home Loan Verification Report
 
-Generated: `2026-10-28T08:52:17.068819+00:00`
+Generated: `2026-10-29T08:46:17.068498+00:00`
 
 ## State Bank of India
 - Product: `HOME_LOAN`
@@ -8,13 +8,6 @@ Generated: `2026-10-28T08:52:17.068819+00:00`
 - Exact row: `HOME LOANS (Term Loans) | CIBIL-linked effective rates | 6.65% 6.75% 6.85% 6.95% 7.15% 6.85%`
 - Rate column: `Effective Rate (ER)`
 - Source: https://sbi.bank.in/web/business/information/interest-rates
-
-## Bank of Baroda
-- Product: `HOME_LOAN`
-- Rate: **7.40%**
-- Exact row: `home loan starting @7.40%`
-- Rate column: `Official home-loan starting-rate statement`
-- Source: https://bankofbaroda.bank.in/loans/home-loan/baroda-home-loan
 
 ## Punjab National Bank
 - Product: `HOME_LOAN`
@@ -51,6 +44,10 @@ Generated: `2026-10-28T08:52:17.068819+00:00`
 - Rate column: `Effective ROI (p.a.)`
 - Source: https://www.bajajhousingfinance.in/home-loan-interest-rates
 
+## Bank of Baroda
+- Status: **FAILED**
+- Reason: <urlopen error [Errno 111] Connection refused>
+
 ## Canara Bank
 - Status: **FAILED**
 - Reason: No module named 'banks.canara'
@@ -69,7 +66,7 @@ Generated: `2026-10-28T08:52:17.068819+00:00`
 
 ## Central Bank of India
 - Status: **FAILED**
-- Reason: HTTP Error 404: Not Found
+- Reason: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1144)>
 
 ## Bank of Maharashtra
 - Status: **FAILED**
