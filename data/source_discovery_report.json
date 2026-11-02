@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T09:30:51.255061+00:00",
+  "generated_at": "2026-11-02T09:47:50.235363+00:00",
   "lenders": [
     {
       "lender": "State Bank of India",
@@ -40,14 +40,13 @@
           "url": "https://www.pnbindia.in/downloadprocess.aspx?fid=qTs2rpANCFLABEyLLQff2g%3D%3D",
           "official_domain": true,
           "source_type": "html",
-          "http_status": 200,
-          "usable": true,
-          "reason": "explicit HOME_LOAN rate evidence parsed",
-          "final_url": "https://pnb.bank.in/downloadprocess.aspx?fid=qTs2rpANCFLABEyLLQff2g%3D%3D"
+          "http_status": null,
+          "usable": false,
+          "reason": "<urlopen error [Errno -2] Name or service not known>"
         }
       ],
-      "selected_source": "https://www.pnbindia.in/downloadprocess.aspx?fid=qTs2rpANCFLABEyLLQff2g%3D%3D",
-      "status": "LIVE_VERIFIED"
+      "selected_source": null,
+      "status": "FAILED"
     },
     {
       "lender": "Canara Bank",
