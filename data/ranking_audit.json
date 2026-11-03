@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T09:47:50.235363+00:00",
+  "generated_at": "2026-11-03T09:51:42.030216+00:00",
   "rankings": [
     {
       "profile": "advertised_starting_rate",
@@ -15,6 +15,12 @@
           "rank": 2,
           "lender": "Bank of Baroda",
           "rate": 7.4,
+          "verification_status": "LIVE_VERIFIED"
+        },
+        {
+          "rank": 3,
+          "lender": "Punjab National Bank",
+          "rate": 8.4,
           "verification_status": "LIVE_VERIFIED"
         }
       ],

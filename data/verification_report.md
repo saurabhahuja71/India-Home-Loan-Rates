@@ -1,6 +1,6 @@
 # Home Loan Verification Report
 
-Generated: `2026-11-02T09:48:49.491006+00:00`
+Generated: `2026-11-03T09:52:34.048079+00:00`
 
 ## State Bank of India
 - Product: `HOME_LOAN`
@@ -15,6 +15,13 @@ Generated: `2026-11-02T09:48:49.491006+00:00`
 - Exact row: `home loan starting @7.40%`
 - Rate column: `Official home-loan starting-rate statement`
 - Source: https://bankofbaroda.bank.in/loans/home-loan/baroda-home-loan
+
+## Punjab National Bank
+- Product: `HOME_LOAN`
+- Rate: **8.40%**
+- Exact row: `HOUSING LOAN | FLOATING ROI | 8.55% 8.40% 8.45% 9.05% 8.90% 8.95%`
+- Rate column: `Floating ROI — presently effective rate`
+- Source: https://pnb.bank.in/downloadprocess.aspx?fid=qTs2rpANCFLABEyLLQff2g%3D%3D
 
 ## HDFC Bank
 - Product: `HOME_LOAN`
@@ -43,10 +50,6 @@ Generated: `2026-11-02T09:48:49.491006+00:00`
 - Exact row: `Home Loan | 7.50%* to 10.25%*`
 - Rate column: `Effective ROI (p.a.)`
 - Source: https://www.bajajhousingfinance.in/home-loan-interest-rates
-
-## Punjab National Bank
-- Status: **FAILED**
-- Reason: <urlopen error [Errno -2] Name or service not known>
 
 ## Canara Bank
 - Status: **FAILED**
