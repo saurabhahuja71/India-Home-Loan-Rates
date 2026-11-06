@@ -1,6 +1,6 @@
 # Home Loan Verification Report
 
-Generated: `2026-11-05T09:45:08.785042+00:00`
+Generated: `2026-11-06T09:41:36.090358+00:00`
 
 ## State Bank of India
 - Product: `HOME_LOAN`
@@ -69,7 +69,7 @@ Generated: `2026-11-05T09:45:08.785042+00:00`
 
 ## Central Bank of India
 - Status: **FAILED**
-- Reason: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1144)>
+- Reason: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1147)>
 
 ## Bank of Maharashtra
 - Status: **FAILED**
