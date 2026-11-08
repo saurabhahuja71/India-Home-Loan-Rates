@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T09:03:38.625710+00:00",
+  "generated_at": "2026-11-08T09:19:55.630192+00:00",
   "lenders": [
     {
       "lender": "State Bank of India",
@@ -104,9 +104,10 @@
           "url": "https://www.indianbank.in/departments/interest-rates/",
           "official_domain": true,
           "source_type": "html",
-          "http_status": null,
+          "http_status": 404,
           "usable": false,
-          "reason": "[Errno 104] Connection reset by peer"
+          "reason": "HTTP Error 404: ",
+          "final_url": "https://indianbank.bank.in/en/departments/interest-rates/"
         }
       ],
       "selected_source": null,
