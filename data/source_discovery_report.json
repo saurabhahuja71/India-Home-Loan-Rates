@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T10:04:17.480172+00:00",
+  "generated_at": "2026-11-13T09:51:23.382541+00:00",
   "lenders": [
     {
       "lender": "State Bank of India",
@@ -265,7 +265,7 @@
           "http_status": 200,
           "usable": false,
           "reason": "No module named 'banks.federal'",
-          "final_url": "https://www.federal.bank.in/home-loan"
+          "final_url": "https://www.federalbank.co.in/home-loan"
         }
       ],
       "selected_source": null,
