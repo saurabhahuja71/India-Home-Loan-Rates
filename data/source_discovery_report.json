@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T09:51:23.382541+00:00",
+  "generated_at": "2026-11-14T09:14:52.890906+00:00",
   "lenders": [
     {
       "lender": "State Bank of India",
@@ -24,14 +24,13 @@
           "url": "https://bankofbaroda.bank.in/loans/home-loan/baroda-home-loan",
           "official_domain": true,
           "source_type": "html",
-          "http_status": 200,
-          "usable": true,
-          "reason": "explicit HOME_LOAN rate evidence parsed",
-          "final_url": "https://bankofbaroda.bank.in/loans/home-loan/baroda-home-loan"
+          "http_status": null,
+          "usable": false,
+          "reason": "<urlopen error timed out>"
         }
       ],
-      "selected_source": "https://bankofbaroda.bank.in/loans/home-loan/baroda-home-loan",
-      "status": "LIVE_VERIFIED"
+      "selected_source": null,
+      "status": "FAILED"
     },
     {
       "lender": "Punjab National Bank",
