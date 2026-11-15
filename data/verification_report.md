@@ -1,6 +1,6 @@
 # Home Loan Verification Report
 
-Generated: `2026-11-14T09:16:10.973045+00:00`
+Generated: `2026-11-15T09:46:18.489227+00:00`
 
 ## State Bank of India
 - Product: `HOME_LOAN`
@@ -8,6 +8,13 @@ Generated: `2026-11-14T09:16:10.973045+00:00`
 - Exact row: `HOME LOANS (Term Loans) | CIBIL-linked effective rates | 6.65% 6.75% 6.85% 6.95% 7.15% 6.85%`
 - Rate column: `Effective Rate (ER)`
 - Source: https://sbi.bank.in/web/business/information/interest-rates
+
+## Bank of Baroda
+- Product: `HOME_LOAN`
+- Rate: **7.40%**
+- Exact row: `home loan starting @7.40%`
+- Rate column: `Official home-loan starting-rate statement`
+- Source: https://bankofbaroda.bank.in/loans/home-loan/baroda-home-loan
 
 ## Punjab National Bank
 - Product: `HOME_LOAN`
@@ -43,10 +50,6 @@ Generated: `2026-11-14T09:16:10.973045+00:00`
 - Exact row: `Home Loan | 7.50%* to 10.25%*`
 - Rate column: `Effective ROI (p.a.)`
 - Source: https://www.bajajhousingfinance.in/home-loan-interest-rates
-
-## Bank of Baroda
-- Status: **FAILED**
-- Reason: <urlopen error timed out>
 
 ## Canara Bank
 - Status: **FAILED**
