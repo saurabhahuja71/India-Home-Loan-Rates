@@ -1,6 +1,6 @@
 # Home Loan Verification Report
 
-Generated: `2026-11-16T10:02:30.993398+00:00`
+Generated: `2026-11-17T10:58:52.300102+00:00`
 
 ## State Bank of India
 - Product: `HOME_LOAN`
@@ -32,8 +32,8 @@ Generated: `2026-11-16T10:02:30.993398+00:00`
 
 ## ICICI Bank
 - Product: `HOME_LOAN`
-- Rate: **9.10%**
-- Exact row: `24 Months | 9.10% – 9.15%`
+- Rate: **9.35%**
+- Exact row: `24 Months | 9.35% – 9.40%`
 - Rate column: `Rate of Interest`
 - Source: https://www.icici.bank.in/personal-banking/loans/home-loan/interest-rates
 

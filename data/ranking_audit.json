@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T10:01:37.425971+00:00",
+  "generated_at": "2026-11-17T10:58:03.017529+00:00",
   "rankings": [
     {
       "profile": "advertised_starting_rate",
@@ -45,7 +45,7 @@
         {
           "rank": 3,
           "lender": "ICICI Bank",
-          "rate": 9.1,
+          "rate": 9.35,
           "verification_status": "LIVE_VERIFIED"
         }
       ],
