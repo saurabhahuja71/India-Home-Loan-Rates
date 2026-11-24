@@ -1,6 +1,6 @@
 # Home Loan Verification Report
 
-Generated: `2026-11-23T11:02:30.351727+00:00`
+Generated: `2026-11-24T12:48:45.361764+00:00`
 
 ## State Bank of India
 - Product: `HOME_LOAN`
@@ -46,8 +46,8 @@ Generated: `2026-11-23T11:02:30.351727+00:00`
 
 ## Bajaj Housing Finance
 - Product: `HOME_LOAN`
-- Rate: **7.50%**
-- Exact row: `Home Loan | 7.50%* to 10.25%*`
+- Rate: **7.65%**
+- Exact row: `Home Loan | 7.65%* to 10.25%*`
 - Rate column: `Effective ROI (p.a.)`
 - Source: https://www.bajajhousingfinance.in/home-loan-interest-rates
 
