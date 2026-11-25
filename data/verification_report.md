@@ -1,6 +1,6 @@
 # Home Loan Verification Report
 
-Generated: `2026-11-24T12:48:45.361764+00:00`
+Generated: `2026-11-25T11:34:48.636039+00:00`
 
 ## State Bank of India
 - Product: `HOME_LOAN`
@@ -105,7 +105,7 @@ Generated: `2026-11-24T12:48:45.361764+00:00`
 
 ## LIC Housing Finance
 - Status: **FAILED**
-- Reason: explicit home-loan rate table not found
+- Reason: HTTP Error 500: Internal Server Error
 
 ## PNB Housing Finance
 - Status: **FAILED**
