@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T11:33:48.713442+00:00",
+  "generated_at": "2026-11-26T11:18:06.649333+00:00",
   "lenders": [
     {
       "lender": "State Bank of India",
@@ -72,10 +72,9 @@
           "url": "https://www.unionbankofindia.bank.in/en/details/interest-rates",
           "official_domain": true,
           "source_type": "html",
-          "http_status": 200,
+          "http_status": null,
           "usable": false,
-          "reason": "No module named 'banks.union'",
-          "final_url": "https://www.unionbankofindia.bank.in/en/details/interest-rates"
+          "reason": "<urlopen error [Errno 101] Network is unreachable>"
         }
       ],
       "selected_source": null,
@@ -310,9 +309,9 @@
           "url": "https://www.lichousing.com/home-loan-interest-rates",
           "official_domain": true,
           "source_type": "html",
-          "http_status": 500,
+          "http_status": 200,
           "usable": false,
-          "reason": "HTTP Error 500: Internal Server Error",
+          "reason": "explicit home-loan rate table not found",
           "final_url": "https://www.lichousing.com/home-loan-interest-rates"
         }
       ],

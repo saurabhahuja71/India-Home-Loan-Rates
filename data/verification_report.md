@@ -1,6 +1,6 @@
 # Home Loan Verification Report
 
-Generated: `2026-11-25T11:34:48.636039+00:00`
+Generated: `2026-11-26T11:18:58.020425+00:00`
 
 ## State Bank of India
 - Product: `HOME_LOAN`
@@ -57,7 +57,7 @@ Generated: `2026-11-25T11:34:48.636039+00:00`
 
 ## Union Bank of India
 - Status: **FAILED**
-- Reason: No module named 'banks.union'
+- Reason: <urlopen error [Errno 101] Network is unreachable>
 
 ## Bank of India
 - Status: **FAILED**
@@ -105,7 +105,7 @@ Generated: `2026-11-25T11:34:48.636039+00:00`
 
 ## LIC Housing Finance
 - Status: **FAILED**
-- Reason: HTTP Error 500: Internal Server Error
+- Reason: explicit home-loan rate table not found
 
 ## PNB Housing Finance
 - Status: **FAILED**
