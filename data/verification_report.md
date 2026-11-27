@@ -1,6 +1,6 @@
 # Home Loan Verification Report
 
-Generated: `2026-11-26T11:18:58.020425+00:00`
+Generated: `2026-11-27T11:12:51.691239+00:00`
 
 ## State Bank of India
 - Product: `HOME_LOAN`
@@ -57,7 +57,7 @@ Generated: `2026-11-26T11:18:58.020425+00:00`
 
 ## Union Bank of India
 - Status: **FAILED**
-- Reason: <urlopen error [Errno 101] Network is unreachable>
+- Reason: No module named 'banks.union'
 
 ## Bank of India
 - Status: **FAILED**

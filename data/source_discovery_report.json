@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T11:18:06.649333+00:00",
+  "generated_at": "2026-11-27T11:12:05.589794+00:00",
   "lenders": [
     {
       "lender": "State Bank of India",
@@ -72,9 +72,10 @@
           "url": "https://www.unionbankofindia.bank.in/en/details/interest-rates",
           "official_domain": true,
           "source_type": "html",
-          "http_status": null,
+          "http_status": 200,
           "usable": false,
-          "reason": "<urlopen error [Errno 101] Network is unreachable>"
+          "reason": "No module named 'banks.union'",
+          "final_url": "https://www.unionbankofindia.bank.in/en/details/interest-rates"
         }
       ],
       "selected_source": null,
